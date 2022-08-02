@@ -1,0 +1,256 @@
+div{
+    width: 1350px;
+    height: 100px;
+    
+}
+body{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.Box1{
+    position: relative;
+    width: 100%;
+    height: 46px;
+    
+}
+.home{
+  width: 78%;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio1{
+  color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.his{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mytravel{
+  background-image: url(travel.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+  color: rgba(17, 17, 17, 0);
+}
+.favmusic{
+  background-image: url(music.webp);
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+  color: rgba(255, 255, 255, 0);
+  
+}
+.hobby{
+  background-image: url(football.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+  color: rgba(17, 17, 17, 0);
+  
+}
+.figma{
+  background-image: url(figma_.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+  color: rgba(125, 13, 13, 0);
+}
+.w3school{
+  background-image: url(w3schools.png);
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+  color: rgba(255, 255, 255, 0);
+  
+}
+.css{
+  background-image: url(css.webp);
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+  color: rgba(17, 17, 17, 0);
+}
+.mytravel:hover{ 
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+ 
+}
+.favmusic:hover{
+  background-color: #111; 
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+ 
+}
+.hobby:hover{
+  background-color: #111; 
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+ 
+}
+.figma:hover{
+  background-color: #111; 
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+ 
+}
+.w3school:hover{
+  background-color: #111; 
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+ 
+}
+.css:hover{
+  background-color: #111; 
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+ 
+}
+.h2{
+  color: bisque;
+  float: left;
+  margin-left: 20px;
+}
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: burlywood;
+  }
+  .h1{
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+  .h3{
+    color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .navitem {
+    float: right;
+  }
+  
+.navitem {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .pusing{
+     color: white;
+     text-decoration-line: none;
+  }
+  
+.navitem:hover {
+    background-color: #111;
+  }
+  .about{
+    width: 100%;
+    height: 600px;
+    margin-top: 20%;
+  }
+  .h11{
+      color: cornsilk;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .pae{
+      float: left;
+      width: 600px;
+      margin-left: 70px;
+      color: cornsilk;
+  }
+  .pae2{
+      float: left;
+      width: 600px;
+      margin-left: 70px;
+      color: cornsilk;
+  }
+  .pink{
+      float: left;
+      width: 600px;
+      margin-left: 70px;
+      color: cornsilk;
+  }
+  
+  .img1{
+      width: 300px;
+      height: 400px;
+      float: left;
+      margin-left: 20px;
+  }
+  .service{
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.s1{
+    background-color: bisque;
+    margin-bottom: 3vh;
+    margin-top: 8vh;
+    margin-left: 2vw;
+    width: 28vw;
+    height: 30vh;
+    float: left;
+    padding: 10px;
+    text-align: center;
+
+  }
+  .boxer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 85px;
+    margin-top: 45px;
+  }
+  .map{
+    width: 50%;
+    height: 400px;
+    float: left;
+    
+  }
+  .divform{
+    width: 50%;
+    height: 400px;
+    float: left;
+    
+  }
+input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
